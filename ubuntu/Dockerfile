@@ -1,4 +1,4 @@
-FROM ubuntu:precise
+FROM ubuntu-debootstrap:14.04
 MAINTAINER Alen Komljen <alen.komljen@live.com>
 
 ENV DEBIAN_FRONTEND noninteractive
